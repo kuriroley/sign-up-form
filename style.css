@@ -7,6 +7,7 @@ body{
   font-family: sans-serif;
   font-size: 18px;
   min-height: 100vh;
+  background-color: rgb(249, 245, 245);
 }
 a{
   text-decoration: none;
@@ -51,4 +52,32 @@ a{
   display: flex;
   flex-direction: column;
   width: 80%;
+  
+}
+.top-text{
+  margin-top: 6em;
+  margin-bottom: 3em;
+  width: 70%;
+  font-weight: 600;
+  padding: 1em;
+}
+
+.top-text-two{
+  margin-top: 1.5em;
+}
+
+.middle-form-container{
+  display: flex;
+  background-color: aliceblue;
+  flex-direction: column;
+  padding: 1em;
+}
+.form-title{
+  margin-bottom: 2em;
+}
+
+.bottom-information{
+  margin-top: 2em;
+  border-top: solid gray 1px;
+  /* how to make a border for this? */
 }
