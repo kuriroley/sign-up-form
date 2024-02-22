@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up form</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="left">
+      <div class="logo-container">
+        <h2>ODIN</h2>
+      </div>
+      <div class="picture-credits">
+        <p>Photo by <a href="#">someone</a> on <a href="#">Unsplash</a></p>
+      </div>
+    </div>
+    <div class="right">
+      <div class="top-text">
+        <p class="top-text-one">
+          This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+          Sign up <em>now</em> to get started.
+        </p>
+        <p class="top-text-two">
+          You <em>know</em> you want to.
+        </p>
+      </div>
+      <div class="middle-form-container">
+        <h3 class="form-title">Let's do this!</h3>
+        <div class="form-container">
+          <form action="#" method="post">
+            <div class="form-element">
+              <label for="firstname">FIRST NAME</label>
+              <input type="text" name="firstname" id="firstname" minlength="3" maxlength="12" required placeholder="Jack">
+            </div>
+            <div class="form-element">
+              <label for="lastname">LAST NAME</label>
+              <input type="text" name="lastname" id="lastname" required minlength="3" maxlength="12" placeholder="Moras">
+            </div>
+            <div class="form-element">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" required placeholder="my@email.com">
+            </div>
+            <div class="form-element">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="number" name="phone" id="phone" minlength="9" maxlength="9" required placeholder="0123456789">
+            </div>
+            <div class="form-element">
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" required minlength="6" maxlength="12">
+            </div>
+            <div class="form-element">
+              <label for="confirmpass">CONFIRM PASSWORD</label>
+              <input type="password" name="password" id="password">
+            </div>
+          </form>
+          <div class="bottom-information">
+            <button type="submit">Create Account</button>
+            <div class="account-question">
+              <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
