@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  border: none;
 }
 
 body{
@@ -55,11 +56,16 @@ a{
   
 }
 .top-text{
-  margin-top: 6em;
-  margin-bottom: 3em;
-  width: 70%;
+  margin-top: 4em;
+  margin-bottom: 1em;
+  line-height: 1.2em;
   font-weight: 600;
-  padding: 1em;
+  padding: 2em;
+  font-size: 1.1em;
+  max-width: 55ch;
+}
+.top-text-one{
+  /* width: 90%; */
 }
 
 .top-text-two{
@@ -68,16 +74,25 @@ a{
 
 .middle-form-container{
   display: flex;
-  background-color: aliceblue;
   flex-direction: column;
-  padding: 1em;
+  background-color: rgb(129, 146, 130);
+  padding: 2em;
+
 }
 .form-title{
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
+.form-container{
+  display: flex;
+  
+}
+.form-element{
+  display: flex;
+  flex-direction: column;
 
+}
 .bottom-information{
   margin-top: 2em;
-  border-top: solid gray 1px;
+  background: white;
   /* how to make a border for this? */
 }
