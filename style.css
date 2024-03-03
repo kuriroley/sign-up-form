@@ -53,46 +53,86 @@ a{
   display: flex;
   flex-direction: column;
   width: 80%;
-  
+  background-color: rgb(42, 3, 3);
+  color: white;
 }
 .top-text{
+  border: 2px solid black;
   margin-top: 4em;
   margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 1em;
   line-height: 1.2em;
-  font-weight: 600;
-  padding: 2em;
+  font-weight: 500;
+  /* padding: 2em; */
   font-size: 1.1em;
   max-width: 55ch;
 }
 .top-text-one{
-  /* width: 90%; */
+  
 }
 
 .top-text-two{
   margin-top: 1.5em;
 }
-
-.middle-form-container{
+label,input{
   display: flex;
-  flex-direction: column;
-  background-color: rgb(129, 146, 130);
-  padding: 2em;
-
 }
-.form-title{
-  margin-bottom: 1.5em;
+input{
+  padding: 0.3em 0.3em;
+  border-radius: 1em;
+}
+input[type=number]{
+  appearance: textfield;
 }
 .form-container{
   display: flex;
-  
+  flex-direction: column;
+  gap: 2em;
+  border: 2px solid black;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  padding: 2em;
+  background-color: rgb(165, 41, 41);
 }
-.form-element{
+.form-title{
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.form{
+  display: grid;
+  gap: 1em;
+  max-width: 70ch;
+  grid-template-columns: repeat(2,1fr);
+  font-size: 0.9em;
+  letter-spacing: 0.6px;
+}
+.bottom-elements{
+  margin-top: 2em;
+  gap: 1em;
   display: flex;
   flex-direction: column;
+}
+.bottom-elements a{
+  color: #182b1d;
 
 }
-.bottom-information{
-  margin-top: 2em;
-  background: white;
-  /* how to make a border for this? */
+.bottom-elements a:hover{
+  color: green;
+
 }
+.sub-button{
+  padding: 0.8em 0.5em;
+  color: white;
+  background-color: #16281a;
+  border-radius: 1em;
+}
+.sub-button:hover{
+  cursor: pointer;
+  background-color: #2f5638;
+}
+.botton-text{
+
+}
+
