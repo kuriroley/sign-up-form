@@ -28,7 +28,7 @@
       </div>
       <div class="form-container">
         <p class="form-title">Let's do this!</p>
-        <form action="#" method="post" class="form">
+        <form action="#" method="post" class="form" id="siteform">
             <div class="form-element">
               <label for="username">User Name</label>
               <input type="text" name="username" id="username" placeholder="Jack" required>
@@ -46,28 +46,26 @@
               <input type="number" name="phone" id="phone" required >
             </div>
             <div class="form-element">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" required>
+              <label for="password1">Password</label>
+              <input type="password" name="password1" id="password1" required>
             </div>
             <div class="form-element">
-              <label for="password">Confirm Password</label>
-              <input type="password" name="password" id="password" required>
+              <label for="password2">Confirm Password</label>
+              <input type="password" name="password2" id="password2" required>
             </div>
-            <fieldset>
-              <div class="bottom-elements">
-                <button type="submit" class="sub-button">Create Account</button>
-                <p class="bottom-text">
-                  Already have an account? <a href="#">Log in</a>
-                </p>
-              </div>
-            </fieldset>
+            <span class="passwordmatch"></span>
             
         </form>
       </div>
-
-
+      <div class="bottom-elements">
+        <button type="submit" class="sub-button" form="siteform">Create Account</button>
+        <p class="bottom-text">
+          Already have an account? <a href="#">Log in</a>
+        </p>
+      </div>
     </div>
   </div>
-
+  <script src="script.js" defer></script>
 </body>
+
 </html>
